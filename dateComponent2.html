@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>dateComponent</title>
+</head>
+
+<body>
+  <div id="dateComponent"></div>
+<button id="dateBTN">Click for Date</button>
+</body>
+
+<script>
+    const dateElement = document.getElementById('dateComponent')
+    const dateBTN= document.getElementById('dateBTN')
+   
+
+  dateBTN.addEventListener('click', (event) => {
+    dateElement.innerHTML = Date();
+  })
+</script>
+</html>
