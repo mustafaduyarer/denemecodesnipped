@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>dateComponent</title>
+</head>
+
+<body>
+  <div id="dateComponent"></div>
+  <button onclick="renderDate()">Click for Date</button>
+</body>
+
+<script>
+    const dateElement = document.getElementById('dateComponent')
+
+    renderDate = () => {
+        dateElement.innerHTML = Date();
+    }
+
+</script>
+</html>
