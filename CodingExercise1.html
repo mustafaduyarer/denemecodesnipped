@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="post-wrapper">
+        <div class="post"></div>
+        <div class="post"></div>
+        <div class="post"></div>
+    </div> 
+</body>
+<script>
+// Select the post-wrapper element
+const postWrapper = document.querySelector('.post-wrapper');
+
+// Remove all elements with the class name 'post'
+const posts = document.querySelectorAll('.post');
+posts.forEach(post => post.remove());
+
+// Create a new p tag with the class 'flash-message'
+const flashMessage = document.createElement('p');
+flashMessage.className = 'flash-message';
+flashMessage.textContent = 'Posts coming soon!';
+
+// Append the new p tag to the post-wrapper
+postWrapper.appendChild(flashMessage);
+
+
+
+</script>
+</html>
