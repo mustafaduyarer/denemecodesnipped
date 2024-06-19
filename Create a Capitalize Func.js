@@ -10,4 +10,4 @@ const toCapital = str => {
   const longStr = "the quick brown fox jumped over the lazy dog";
   toCapital(longStr); // The Quick Brown Fox Jumped Over The Lazy Dog
   console.log(toCapital(longStr));
-  //Yorum ekle
+  //Yorum ekle Bir stringin bas harflerini buyuk harf yapma metodu
