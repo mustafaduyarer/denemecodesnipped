@@ -29,3 +29,5 @@ class ArrayPopper {
   strap.togglePopper(); //? SD
   strap.togglePopper(); //? undifened
   strap.arr;            //? []
+
+  //yorum
