@@ -30,4 +30,4 @@ class ArrayPopper {
   strap.togglePopper(); //? undifened
   strap.arr;            //? []
 
-  //yorum
+  //yorum eklendi
